@@ -1,0 +1,414 @@
+*,
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1A2238;
+    color: #eaeaea;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    width: 100%;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.milkeun-logo {
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+}
+
+.img-logo {
+    width: 50px;
+    height: auto;
+}
+
+nav ul {
+    display: flex;
+    gap: 100px;
+}
+
+
+a {
+    text-decoration: none;
+    color: #eaeaea;
+    padding: 10px;
+}
+
+li {
+    list-style-type: none;
+}
+
+li a {
+    transition: all .5 ease 0s;
+    display: inline-block;
+}
+
+li a:hover {
+    color: #FF6A3D;
+    transform: rotate(5deg);
+}
+
+.btn {
+    padding: 10px;
+    border-color: #eaeaea;
+    background-color: #1A2238;
+    color: #eaeaea;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.btn:hover {
+    background-color: #FF6A3D;
+    border-color: #1A2238;
+    color: #eaeaea;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1A2238;
+}
+
+.parallax {
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.home {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #eaeaea;
+}
+
+.heading {
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    margin-top: 40px;
+    background-color: #eaeaea;
+}
+
+.milkeun {
+    font-family: 'Playfair Display', serif;
+    font-size: 55px;
+    margin-bottom: 10px;
+    background-color: #eaeaea;
+}
+
+.description-1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 20px;
+    background-color: #eaeaea;
+}
+
+.description {
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    font-weight: 580;
+    color: #eaeaea;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    height: 100vh;
+}
+
+.about-primary {
+    color: #eaeaea;
+    padding: 10px;
+    font-family: 'Playfair Display', serif;
+    font-size: 75px;
+    margin-bottom: 10px;
+}
+
+.about-secondary {
+    color: tomato;
+    padding: 10px;
+    font-family: 'Playfair Display', serif;
+    font-size: 75px;
+    margin-bottom: 10px;
+}
+
+.about-milkeun {
+    display: flex;
+}
+
+.img-product {
+    max-width: 350px;
+    height: 350px;
+    background-color: #eaeaea;
+}
+
+.product {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.product-knowledge {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+}
+
+.menu {
+    width: 400px;
+    margin-left: 10%;
+}
+
+.milkeun-menu {
+    font-family: 'Playfair Display', serif;
+    color: #eaeaea;
+    font-size: 75px;
+    margin-top: 100px;
+}
+
+.name-menu {
+    color: aqua;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 32px;
+    letter-spacing: 10px;
+    margin-bottom: 10px;
+}
+
+.detail-menu {
+    color: #eaeaea;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+}
+
+.price-menu {
+    color: #eaeaea;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.btn-menu {
+    margin-top: 30px;
+    cursor: pointer;
+    border: none;
+    background-color: tomato;
+    padding: 15px;
+    width: 200px;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 30px;
+}
+
+.btn-menu:hover {
+    transition: all .5s ease-in-out;
+    color: #eaeaea;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.location-knowledge {
+    margin-left: 5%;
+}
+
+.find-location {
+    color: #eaeaea;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    letter-spacing: 10px;
+    margin-bottom: 20px;
+}
+
+.near-location {
+    color: #eaeaea;
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.outlet-location {
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+    color: aqua;
+    margin-bottom: 40px;
+}
+
+.img-location {
+    margin-left: 30%;
+}
+
+.bio {
+    max-width: 100%;
+	background: #393E46;
+	padding: 2rem 0;
+}
+
+.container-footer {
+    display: flex;
+    max-width: 100%;
+	max-height: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.img {
+    position: relative;
+}
+
+.img-footer {
+    width: 150%;
+    padding-left: 1rem;
+}
+
+.img-hover {
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: 0.5s;
+    width: 150%;
+    padding-left: 1rem;
+}
+
+.img-hover:hover {
+    opacity: 0;
+}
+
+.text-footer {
+    color: #636C7A;
+    font-family: 'Raleway', sans-serif;
+    max-width: 100%;
+	max-height: 100%;
+	margin-right: auto;
+	margin-left: 100px;
+}
+
+.name-footer {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 32px;
+    letter-spacing: .1em;
+    margin-top: 20px;
+}
+
+.spc-footer {
+    font-weight: 800;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.desc-footer {
+    font-weight: 800;
+    font-size: 20px;
+    margin-top: 50px;
+    text-align: justify;
+    margin-right: 50px;
+    letter-spacing: 1px;
+}
+
+.detail-footer {
+    max-width: 100%;
+	max-height: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.bio-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    max-width: 100%;
+    height: auto;
+}
+
+.skill-title {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #636C7A;
+    font-size: 20px;
+    margin: 10px 0px;
+}
+
+.list-skill {
+    display: flex;
+	width: 75%;
+}
+
+.skill img{
+	width: 50%;
+	transition: 0.8s;
+}
+
+.list-contact {
+    display: flex;
+	flex-direction: column;
+	justify-content:space-between;
+	max-width: 100%;
+}
+
+.contact-title {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #636C7A;
+    font-size: 20px;
+    margin: 10px 0px;
+}
+
+.contact {
+    display: flex;
+	align-items: center;
+	margin: 3px 0;
+    font-family: 'raleway',sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    color: #636C7A;
+}
+
+.contact img{
+	width: 12%;
+	margin-right: 5px;
+	transition: 0.8s;
+}
+
+.name-footer:hover,
+.spc-footer:hover,
+.desc-footer:hover,
+.skill-title:hover,
+.contact-title:hover {
+    color: aqua;
+    transition: .5s;
+}
+
+.skill:hover,
+.contact:hover {
+    filter: invert(59%) sepia(99%) saturate(1205%) hue-rotate(8deg) brightness(106%) contrast(104%);
+	transition: 0.8s;
+}
+
+
